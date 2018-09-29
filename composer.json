@@ -1,0 +1,21 @@
+{
+    "name": "ptindia/yii2-ptindia-shipstation",
+    "description": "This is an extension to integrate shipstation with Yii2 project",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","shipstation"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Sachin Jaiswal",
+            "email": "sachin@ptindia.org"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ptindia\\shipstation\\": ""
+        }
+    }
+}
